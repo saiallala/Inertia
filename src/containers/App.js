@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Cart from '../components/Cart/Cart';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return(
+      <div className="App">
+        <Cart></Cart>
+      </div>
+    )}
 }
 
 export default App;
